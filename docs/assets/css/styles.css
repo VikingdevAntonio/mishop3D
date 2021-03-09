@@ -1,0 +1,162 @@
+.navbar.navbar-light.navbar-expand-md {
+  background: #303030;
+}
+
+#navcol-1 a {
+  color: #fff;
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 500px;
+  background: #fdc830;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  position: relative;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  opacity: 1;
+  z-index: 2;
+}
+
+body.dark .wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  opacity: 0;
+}
+
+.waveDos {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+}
+
+.about {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  color: gray;
+}
+
+.about span {
+  color: orange;
+}
+
+.about .linea {
+  height: 2px;
+  background: rgb(1,200,200);
+  width: 60%;
+  margin: auto;
+}
+
+body.dark .about {
+  color: #fff;
+}
+
+.tarjetas {
+  text-align: center;
+  color: gray;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.boton {
+  font-size: 16px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background: none;
+  border: 2px aqua solid;
+  color: gray;
+}
+
+body.dark .tarjetas {
+  color: #fff;
+}
+
+body.dark .boton {
+  color: #fff;
+}
+
+.footer-basic {
+  background: #fff;
+}
+
+body.dark .footer-basic {
+  background: #161623;
+  color: #fff;
+}
+
+.model {
+  text-align: center;
+  color: gray;
+}
+.model .boton{
+  width: 80%;
+  margin: auto;
+}
+body.dark .model {
+  color: #fff;
+}
+
+.model .row {
+  margin-top: 80px;
+}
+
+.model h1 {
+  color: rgb(6,183,183);
+}
+.model model-viewer{
+  width: 100%;
+  height: 400px;
+  margin: auto;
+}
+
+.contact-clean {
+  background: #fff;
+}
+
+body.dark .contact-clean {
+  background: #161623;
+}
+
+.botonContact {
+  background: none;
+  border: 2px aqua solid;
+  border-radius: 30px;
+  width: 100%;
+  padding: 10px 0;
+  color: gray;
+}
+
+body.dark .botonContact {
+  color: #fff;
+}
+
+.contact-clean form {
+  background: rgba(0,0,0,0.2);
+}
+
+.contact-clean .form-group .form-control {
+  background: rgba(0,0,0,0.1);
+}
+
